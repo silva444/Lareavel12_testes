@@ -159,6 +159,7 @@ class AuthController extends BaseController
         return $this->sendResponse($success, 'Refresh token return successfully.');
     }
 
+    // para usar caso a primeira op~çao não funcione;
     public function refresh_new($tk)
     {
 
